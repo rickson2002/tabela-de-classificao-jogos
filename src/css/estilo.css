@@ -1,0 +1,84 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://storage.googleapis.com/support-forums-api/attachment/thread-213229874-13931335994315732502.jpg");
+    background-color: #111;
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 60px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 00px;
+  }
+
+  .imagem-botao {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    display: inline-block;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #dde6eb;
+    border-radius: 5px;
+    background-color: #171212;
+
+  }
+
+.imagem-botao:hover{
+  background-color: #f6f6f6;
+  transition: background 1s;
+}
+
+
+  .imagem-botao img {
+    width: 25px; 
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 8px; 
+  }
+
+  
+  table {
+    border: px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
+  
+  button {
+    background-color: #708090;
+    color: #f6f6f6;
+    }
+  

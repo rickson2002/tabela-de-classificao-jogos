@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Classificação de Jogos</title>
+    >
+    <<html>
+
+        <link rel="stylesheet" href=".//src/css/estilo.css">
+
+<body>
+    <main>
+        <h1>Classificação dos Jogos</h1>
+        
+
+        <input type="text" id="campoNomeJogador" placeholder="Olá, digite o nome do jogador" />
+        <button onClick="criarJogador()">Adicione o jogador</button>
+
+
+
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome dos jogadores</th>
+                    <th>Vitórias dos jogadores</th>
+                    <th>Empates dos jogadores</th>
+                    <th>Derrotas dos jogadores</th>
+                    <th>Total de Pontos</th>
+                    <th colspan="5">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+
+            </tbody>
+        </table>
+        <button onClick="apagarJogadores()">Apagar todos os jogadores</button>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <a href="https://github.com/rickson2002" class="imagem-botao">
+        <img src="./src/img/icone-github-rouge.png" alt="Ícone do botão">
+    </a>
+
+</body>
+
+
+
+</html>
